@@ -28,4 +28,5 @@ npm install
 npm run dev
 ```
 
-- after running just open the server mentioned on the port in the termianl
+- now open the server on the mentioned port in the termianl or just click the
+  url in the terminal
