@@ -1,0 +1,19 @@
+.kanbanBoard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.boardHeader {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 2rem 1rem;
+}
+
+.boardBody {
+  background-color: #f7f7f7;
+  height: calc(100% - 100px);
+  padding: 1rem;
+
+  display: flex;
+}

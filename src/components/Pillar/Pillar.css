@@ -1,0 +1,34 @@
+.pillarContainer {
+  /* border: 1px solid #ddd; */
+  padding: 1rem;
+  width: 25%;
+}
+
+.pillarHeader {
+  color: #7a7878;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.pillarHeaderLeft {
+  display: flex;
+  align-items: center;
+}
+
+.pillarIcon {
+  display: flex;
+  align-items: center;
+}
+
+.pillarBody {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  /* for adding scroll to the pillar */
+  /* height: 100vh; */
+  /* overflow: auto; */
+}

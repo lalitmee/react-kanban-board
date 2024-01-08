@@ -1,0 +1,23 @@
+.userImage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: brown;
+  color: #ffffff;
+  font-size: 1em;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.userAvailable {
+  position: absolute;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #fff;
+}

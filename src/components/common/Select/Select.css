@@ -1,0 +1,36 @@
+.selectContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectLabel {
+  color: #686161;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 120px;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.selectSelect {
+  position: relative;
+
+  display: flex;
+  justify-content: start;
+}
+
+.selectIcon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
