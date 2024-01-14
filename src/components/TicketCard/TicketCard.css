@@ -19,13 +19,13 @@
 }
 
 .cardId {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #898282;
 }
 
 .cardTitle {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .cardFooter {
@@ -42,7 +42,7 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 0.1rem;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .cardType {
@@ -58,16 +58,16 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 0.1rem 0.2rem;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #898282;
 }
 
 .cardTypeName {
   display: flex;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .cardTypeNameIcon {
   display: flex;
-  font-size: 1.2em;
+  font-size: 1em;
 }

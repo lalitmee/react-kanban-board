@@ -25,7 +25,7 @@ function useGroupingAndOrdering({
   groupBy: string;
   orderBy: string;
 }) {
-  const storedPillars = JSON.parse(localStorage.getItem('pillars') || '');
+  const storedPillars = JSON.parse(localStorage.getItem('pillars') || '{}');
   const { ticketsWithUser: tickets } = useTickets();
   const [pillars, setPillars] = useState<Pillar>(storedPillars);
   const [orderType, setOrderType] = useState('asc');
